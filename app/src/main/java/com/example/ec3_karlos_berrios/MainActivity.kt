@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
-
         fetchPerros()
     }
 
