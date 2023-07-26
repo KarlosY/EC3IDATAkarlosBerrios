@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.action_home -> {
 
-
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     true
