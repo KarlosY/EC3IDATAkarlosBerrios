@@ -37,15 +37,14 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.action_home -> {
-                    // Handle Home option if needed
+
 
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     true
                 }
                 R.id.action_favo -> {
-                    // Handle Search option if needed
-                    // Show FavoritosFragment when "Favoritos" is selected
+
                     showFragment(FavoritosFragment())
                     true
                 }
